@@ -46,10 +46,11 @@ class Events:
         'thr£eshop',
         'thr33shop',
         'fr33sh0p',
-#        'freshop',
+        'freshop',
         'fresh0p',
         'fr$shop',
-        #'pkgi',
+        'pkgi',
+        'pkgj',
         'npsbrowser',
         'nopaystation',
     ]
