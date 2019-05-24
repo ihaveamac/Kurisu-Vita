@@ -17,7 +17,7 @@ class Assistance:
 
     @commands.command(pass_context=True, name="sr", hidden=True)
     async def staffreq(self, ctx, *, msg_request=""):
-        """Request staff, with optional additional text. Helpers, Staff, Verified only."""
+        """Request staff, with optional additional text. Staff only."""
         author = ctx.message.author
         if (self.bot.helpers_role not in author.roles) and (self.bot.staff_role not in author.roles) and (self.bot.verified_role not in author.roles) and (self.bot.trusted_role not in author.roles):
             msg = "{0} You cannot used this command at this time. Please ask individual staff members if you need help.".format(author.mention)
@@ -40,22 +40,22 @@ class Assistance:
         if console == "vita" or (console == "auto" and "wiiu" not in ctx.message.channel.name):
             embed = discord.Embed(title="Guide", color=discord.Color(0xCE181E))
             embed.set_author(name="Yifan Lu", url="https://henkaku.xyz/")
-            embed.set_thumbnail(url="https://pbs.twimg.com/profile_images/78071163/icon.png")
-            embed.url = "https://henkaku.xyz/"
-            embed.description = "Henkaku's main site."
+            embed.set_thumbnail(url="https://pbs.twimg.com/profile_images/698944593715310592/wTDlD5rA_400x400.png")
+            embed.url = "https://vita.hacks.guide/"
+            embed.description = "Plailect's guide for hacking your PS Vita or PSTV."
             await self.bot.say("", embed=embed)
 
 
     @commands.command()
     async def update(self):
         """Explains to not update"""
-        await self.simple_embed("Do **not** update past 3.60 or you will not be able to use henkaku!")
+        await self.simple_embed("Updating to the latest system firmware may potentially cause your console to become unhackable in the future. Spoofing the latest firmware in HENkaku Settings is recommended to avoid accidental updates.")
 
 
     @commands.command()
     async def downgrade(self):
         """Downgrade help"""
-        await self.simple_embed("You cannot currently downgrade.", title="Can I downgrade?")
+        await self.simple_embed("You can downgrade as long as your system is currently hacked. However, you can't downgrade past the firmware your console came on from the factory.", title="Can I downgrade?")
 
     @commands.command()
     async def question(self):
