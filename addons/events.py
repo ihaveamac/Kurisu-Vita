@@ -52,7 +52,12 @@ class Events:
         'pkgi',
         'pkgj',
         'npsbrowser',
-        'nopaystation',
+        'npsstore'
+        'npstore'
+        'npsshop'
+        'npshop'
+        'nopaystation'
+        'titlekeys',
     ]
 
     # I hate naming variables sometimes
