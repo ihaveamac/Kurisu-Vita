@@ -5,7 +5,7 @@
 # https://github.com/916253/Kurisu
 
 description = """
-Kurisu, the bot for the 3DS Hacking Discord!
+Kurisu, the bot for the Vita Hacking Discord!
 """
 
 # import dependencies
