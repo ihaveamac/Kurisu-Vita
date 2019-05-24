@@ -20,11 +20,11 @@ class Extras:
     @commands.command()
     async def kurisu(self):
         """About Kurisu"""
-        embed = discord.Embed(title="Kurisu", color=discord.Color.green())
+        embed = discord.Embed(title="Kurisu-Vita", color=discord.Color.green())
         embed.set_author(name="916253 and ihaveahax")
-        embed.set_thumbnail(url="http://i.imgur.com/hjVY4Et.jpg")
-        embed.url = "https://github.com/916253/Kurisu"
-        embed.description = "Kurisu, the Nintendo Homebrew Discord bot!"
+        embed.set_thumbnail(url="https://github.com/ihaveamac/Kurisu-Vita/blob/master/bot-icon.png")
+        embed.url = "https://github.com/ihaveamac/Kurisu-Vita"
+        embed.description = "Kurisu-Vita, the Vita Hacking Discord bot!"
         await self.bot.say("", embed=embed)
 
     @commands.command()
