@@ -51,11 +51,13 @@ class Events:
         'fr$shop',
         'pkgi',
         'pkgj',
+        'pkjl'
         'npsbrowser',
         'npsstore'
         'npstore'
         'npsshop'
         'npshop'
+        'yespaystation'
         'nopaystation'
         'titlekeys',
     ]
