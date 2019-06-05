@@ -52,6 +52,8 @@ class Events:
         'pkgi',
         'pkgj',
         'pkjl'
+        'rvitapiracy'
+        'r/vitapiracy'
         'npsbrowser',
         'npsstore'
         'npstore'
