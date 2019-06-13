@@ -52,6 +52,9 @@ class Events:
         'pkgi',
         'pkgj',
         'pkjl'
+        'pckgj'
+        'pckgl'
+        'pckgi'
         'rvitapiracy'
         'r/vitapiracy'
         'npsbrowser',
