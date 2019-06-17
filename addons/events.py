@@ -51,16 +51,19 @@ class Events:
         'fr$shop',
         'pkgi',
         'pkgj',
-        'pkjl'
-        'rvitapiracy'
-        'r/vitapiracy'
+        'pkjl',
+        'pckgj',
+        'pckgl',
+        'pckgi',
+        'rvitapiracy',
+        'r/vitapiracy',
         'npsbrowser',
-        'npsstore'
-        'npstore'
-        'npsshop'
-        'npshop'
-        'yespaystation'
-        'nopaystation'
+        'npsstore',
+        'npstore',
+        'npsshop',
+        'npshop',
+        'yespaystation',
+        'nopaystation',
         'titlekeys',
     ]
 
